@@ -11,7 +11,7 @@
             const max = parseInt(prompt('Enter the first number '));
             const min = parseInt(prompt('Enter the second number '));
 
-            const a = Math.random() * (max - min) + min;
+            const a = Math.floor(Math.random() * (max - min)) + min;
 
             alert(`Random value between ${min} and ${max} is ${a}`);
         </script>
