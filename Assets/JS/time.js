@@ -12,5 +12,5 @@ if (curHr < 12) {
 
 function changeColor(newColor) {
     const elem = document.getElementById("good_time");
-    elem.innerHTML = word;
+    elem.innerHTML = `${word}`;
   }
