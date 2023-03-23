@@ -67,7 +67,6 @@ a {
 
 .app-container {
     width: 100%;
-    border-radius: 2px; /* boooo */
     display: flex;
     flex-direction: column;
     height: 100%;
