@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="../Assets/CSS/button.css">
+
+        <title>Math - Multiplication Table Generator</title>
+    </head>
+
+    <body>
+        <script>
+            const max = parseInt(prompt('Enter the first number '));
+            const min = parseInt(prompt('Enter the second number '));
+
+            const a = Math.floor(Math.random() * (max - min)) + min;
+
+            alert(`Random value between ${min} and ${max} is...\n\n${a}`);
+        </script>
+    </body>
+</html>
